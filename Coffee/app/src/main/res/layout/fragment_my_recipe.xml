@@ -44,7 +44,7 @@
         android:layout_marginEnd="18dp"/>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rc_recipe"
+        android:id="@+id/rc_myRecipe"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="25dp"
