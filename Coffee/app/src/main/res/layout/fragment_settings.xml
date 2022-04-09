@@ -202,7 +202,7 @@
             app:srcCompat="@drawable/ic_people" />
 
         <TextView
-            android:id="@+id/textView9"
+            android:id="@+id/txt_createPeople"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="만든 사람들"

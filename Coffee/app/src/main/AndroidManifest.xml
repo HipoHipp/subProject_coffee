@@ -19,6 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".activities.activity.MainActivity"/>
+        <activity android:name=".activities.popup.MyRecipePopup"/>
 
         <provider
             android:name="androidx.core.content.FileProvider"

@@ -1,11 +1,9 @@
 package com.example.coffee.activities.fragment
 
 import android.os.Bundle
-import android.util.Log
-import androidx.core.view.isEmpty
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.coffee.activities.Adapter.MyRecipeAdapter
+import com.example.coffee.activities.adapter.MyRecipeAdapter
 import com.example.coffee.activities.base.BaseFragment
 import com.example.coffee.data.Recipe
 import com.example.coffee.databinding.FragmentMyRecipeBinding
@@ -37,10 +35,6 @@ class MyRecipeFragment:BaseFragment.BaseFragment<FragmentMyRecipeBinding>(Fragme
     }
 
     fun binding_rc(){
-        if(binding.rcMyRecipe.isEmpty()){
-            Log.d("null", "data is null")
-        }else Log.d("null", "data is not null")
-
         binding.rcMyRecipe.setLayoutManager(mLayoutManager);
         binding.rcMyRecipe.adapter = myRecipeAdapter
 
